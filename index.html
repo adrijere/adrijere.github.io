@@ -1,14 +1,12 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
     <head>
-        <title>Mon projet canvas</title>
-        <script src="roguelike.js"></script>
+        <title>Star Wars Experience</title>
+        <script src="https://ondras.github.io/rot.js/rot.js"></script>
+        <script src="/path/to/the/game.js"></script>
     </head>
-    <body>
-        <canvas id="map" width="0" height="0">
-            Message pour les navigateurs ne supportant pas encore canvas.
-        </canvas>
-        <script>roguelike.create_map(100, 100);
-                roguelike.create_player(10,10);</script>
+    <body onload="Game.init()">
+        <h1>Star Wars Experience</h1>
     </body>
 </html>
+
