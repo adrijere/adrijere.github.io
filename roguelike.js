@@ -44,3 +44,5 @@ var Game = {
         }
     }
 };
+
+Game.init();
