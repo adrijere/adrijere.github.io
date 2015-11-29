@@ -44,5 +44,3 @@ var Game = {
         }
     }
 };
-
-Game.init();
